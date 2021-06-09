@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Frame1Controller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-1.0" maxWidth="-1.0" prefHeight="325.0" prefWidth="486.0">
+         <children>
+            <TableView id="tableData" fx:id="table1" layoutY="-1.0" prefHeight="314.0" prefWidth="477.0">
+               <columns>
+                  <TableColumn fx:id="tableName" prefWidth="89.0" text="Name" />
+                  <TableColumn fx:id="tableX" prefWidth="118.0" text="X" />
+                  <TableColumn fx:id="tableY" prefWidth="126.0" text="Y" />
+                  <TableColumn fx:id="Cluster" prefWidth="120.0" text="Cluster" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
